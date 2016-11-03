@@ -7,9 +7,9 @@ class Coisa implements Ator {
   PVector p1,p2,p3;
   
   Coisa() {
-    p1 = new PVector(10,10);
-    p2 = new PVector(20,20);
-    p3 = new PVector(10,30);
+    p1 = new PVector(30,30);
+    p2 = new PVector(60,60);
+    p3 = new PVector(30,90);
   }
   
   void atualizar() {
@@ -48,7 +48,7 @@ void setup() {
   
   espaco = new AProjected();
   espaco.showBoundary();
-  espaco.set_transform(0, 0, width, height,  new PVector(200,200), new PVector(400,200), new PVector(450,500), new PVector(190,480));
+  espaco.set_transform(0, 0, width, height,  new PVector(200,200), new PVector(400,200), new PVector(450,500), new PVector(190,580));
 
 }
 
